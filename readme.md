@@ -6,4 +6,11 @@
 
 I am not responsible in any way for bricking your phone, YOU are responsible and YOU chose to make these modifications to your phone. Please read the guide carefully, do not just copy and paste the commands, and do not proceed if you do not understand something, or get an error, in this case try asking for help in the Project Renage [discord server](https://discord.com/invite/XXBWfag) and [telegram](https://t.me/joinchat/MNjTmBqHIokjweeN0SpoyA).
 
+# 1. Prerequisites
+1. A Mi 9T Pro running latest MIUI firmware
+2. A computer running Windows
+3. An USB cable to connect your phone to your computer
+4. A desire to learn (important)
+
+
 This is currently a WIP
