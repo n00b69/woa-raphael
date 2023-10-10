@@ -1,6 +1,6 @@
 <img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/raphael.png" width="350" alt="Xiaomi Mi 9T Pro">
 
-# Renegade Project for Redmi K20 Pro / Mi 9T Pro (raphael/raphaelin)
+# Running Windows on Redmi K20 Pro / Mi 9T Pro (raphael/raphaelin)
 
 ## WARNING
 
