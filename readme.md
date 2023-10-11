@@ -49,6 +49,10 @@ You can use **"Latest Dev Channel build"** for the latest features in Windows. F
 Extract both driver packs, and place the 3 folders inside the Raphael drivers folder into the main drivers folder, in the following path: **"\components\QC8150\Device\Raphael\"**
 
 ## 1.2 Partition the UFS
-### Warning! this
+### Warning! this will erase **ALL** of your Android data!
+
+
+
+# This guide is currently a WIP
 
 
