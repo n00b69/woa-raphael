@@ -4,6 +4,8 @@
 
 ## WARNING
 
+DO NOT USE THIS GUIDE ON A REDMI K20 / MI 9T!! YOU RUN THE RISK OF BRICKING YOUR DEVICE! Altough they might seem the same, they have completely different SoC's and codenames!
+
 I am not responsible in any way for bricking your phone, YOU are responsible and YOU chose to make these modifications to your phone. Please read the guide carefully, do not just copy and paste the commands, and do not proceed if you do not understand something, or get an error, in this case try asking for help in the Project Renegade [discord server](https://discord.com/invite/XXBWfag) and [telegram](https://t.me/joinchat/MNjTmBqHIokjweeN0SpoyA).
 
 Here is a support table to get you started:
@@ -51,9 +53,40 @@ Extract both driver packs, and place the 3 folders inside the Raphael drivers fo
 ## 1.2 Partition the UFS
 ### Warning! this will erase **ALL** of your Android data!
 
-To resize userdata partition, you need a third-party recovery, which allows you to use ADB. You will also need [parted].
+To resize userdata partition, you need a third-party recovery, which allows you to use ADB. You will also need [parted](https://github.com/graphiks/woa-raphael/raw/main/parted) to modify the partitions.
+After downloading parted, open a terminal (in the platform-tools folder).
 
+Before partitioning, we must remove the 32 partition number limit. Raphael has 31 partitions by default, which is not enough for installing Windows or dualbooting with Android.
+~~~
+adb shell
+sgdisk --resize-table=128 /dev/block/sda
+~~~
+```
+adb push parted /cache/
+adb shell "chmod 755 /cache/parted"
+adb shell
+```
+Run these commands seperately.
 
+After entering ADB shell:
+```
+cd /cache
+./parted /dev/block/sda
+```
+Again, run thes commands seperately.
+
+Now, in parted print the current table partition:
+
+```
+(parted) print
+```
+
+Parted will print the list of partitions, userdata should be the last partition in the list.
+Now we will resize the userdata partition. You can choose the size you want in this example we resize it to 30GB.
+```
+(parted) resizepart (userdata partition number)
+End? [122GB]? 32GB
+```
 
 # This guide is currently a WIP
 
