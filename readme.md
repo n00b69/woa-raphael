@@ -51,6 +51,8 @@ Extract both driver packs, and place the 3 folders inside the Raphael drivers fo
 ## 1.2 Partition the UFS
 ### Warning! this will erase **ALL** of your Android data!
 
+To resize userdata partition, you need a third-party recovery, which allows you to use ADB. You will also need [parted].
+
 
 
 # This guide is currently a WIP
