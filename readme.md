@@ -84,7 +84,21 @@ Now we will resize the userdata partition. You can choose the size you want in t
 (parted) resizepart (userdata partition number)
 End? [122GB]? 32GB
 ```
+We will now create both ESP and Windows partitions.
+Note: 32GB is the **End** of the **userdata** partition and 32.5GB is the end of the partition we will be creating, so it will be 500MB in size. Also replace 32GB to the end of userdata accordingly. Check free space by typing: "(parted) free"
+```
+(parted) mkpart esp fat32 32GB 32
+# will create an esp partition
 
+(parted) set $ esp on
+# Replace "$" with your ESP partition number, usually 30, or 31
+
+(parted) mkpart win ntfs 32.5GB 122GB
+# Here, 32.5GB is the end of the esp partition, and 122gb is the end of the userdata partition before shrinking
+
+(parted) quit
+# exit the tool
+```
 Reboot to android to check if everything works correctly.
 
 # 1.2 Backing up essential partitions
