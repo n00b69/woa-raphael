@@ -204,4 +204,4 @@ If fastboot hangs on "< waiting for device >", make sure your device is properly
 
 # This guide is currently a WIP
 
-
+half assed guide lol
