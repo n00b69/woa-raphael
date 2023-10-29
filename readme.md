@@ -14,7 +14,7 @@ Here is a support table to get you started:
 | Bluetooth              |                                                     | ✅            |
 | Wifi                   | Disabled  due to instabilities (see step X.X)       | ⚠️            |
 | UFS                    |                                                     | ✅            |
-| Touch                  |                                                     | ❌            |
+| Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
 | Battery                |                                                     | ✅            |
 | Buttons                |                                                     | ✅            |
