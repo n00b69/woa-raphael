@@ -101,6 +101,7 @@ Note: 32GB is the **End** of the **userdata** partition and 32.5GB is the end of
 (parted) quit
 # exit the tool
 ```
+Your Redmi K20 Pro / Mi 9T Pro may have different storage sizes. Again, check free space using "(parted) free" and set the end value accordingly.
 Reboot to android to check if everything works correctly.
 
 # 1.2 Backing up essential partitions
