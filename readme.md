@@ -190,7 +190,8 @@ After Windows is hopefully installed correctly, we will now reboot into fastboot
 fastboot boot xiaomi-raphael.img
 ```
 If fastboot hangs on "< waiting for device >", make sure your device is properly plugged in, otherwise install fastboot drivers.
-You should now see a Windows 11 logo with a throbber. To permanently flash the image execute the following command:
+You should now see a Windows 11 logo with a throbber.
+To permanently flash the image execute the following command:
 ```
 fastboot flash boot xiaomi-raphael.img
 ```
