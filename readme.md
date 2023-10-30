@@ -217,6 +217,8 @@ Your device should now restart. At the same screen you should now see an option 
 The wifi drivers are disabled due to some instabilities, altough they aren't that frequent and does not bother me.
 To reenable them, (assuming you have reached the Windows desktop) copy over the driver files to your windows partition (by using mass storage mode or some other way), then in the Windows desktop, go to the driver folder, then inside of it navigate to the following directory: **components/QC8150/Device/Raphael/DEVICE.SOC_QC8150.RAPHAEL/Extensions/Subsystems/**. From within that folder find a file called "raphael_subextscss.inf_". Rename that file to remove the "_" at the end. Open Device Manager. Click on the "Add drivers" button at the top (should be the 6th icon). Click on "Browse". Navigate to the previous folder and select the .inf file you have just renamed. Windows will install the wifi driver, then reboot. Wifi should now be working.
 
+## 4.2 DISM Error:87 The add-driver option is unkown
+This usually means that you have an unclean Windows image with some other drivers. You need to get an clean Windows image.
 
 
 
