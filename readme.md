@@ -134,7 +134,7 @@ DISKPART>sel par $
 DISKPART> format quick fs=fat32 label="System"
 # format the ESP partition as fat32
 
-DISKPART> assign letter="X"
+DISKPART> assign letter="Z"
 # Assign a drive letter to the ESP partition
 
 DISKPART> sel par $
