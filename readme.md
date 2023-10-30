@@ -89,7 +89,7 @@ End? [122GB]? 32GB
 We will now create both ESP and Windows partitions.
 Note: 32GB is the **End** of the **userdata** partition and 32.5GB is the end of the partition we will be creating, so it will be 500MB in size. Also replace 32GB to the end of userdata accordingly. Check free space by typing: "(parted) free"
 ```
-(parted) mkpart esp fat32 32GB 32
+(parted) mkpart esp fat32 32GB 32.5GB
 # will create an esp partition
 
 (parted) set $ esp on
