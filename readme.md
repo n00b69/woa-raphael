@@ -14,7 +14,7 @@ Here is a support table to get you started:
 | Feature                | Notes                                               | Status         |
 |------------------------|-----------------------------------------------------|----------------|
 | Bluetooth              |                                                     | ✅            |
-| Wifi                   | Disabled  due to instabilities (see step X.X)       | ⚠️            |
+| Wifi                   | Disabled  due to instabilities (see step 4.1)       | ⚠️            |
 | UFS                    |                                                     | ✅            |
 | Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
@@ -156,7 +156,7 @@ Before deploying a Windows image, we need a **install.wim** file, to do this:
 > Find install.wim there
 > Copy this file to your PC and mark the location
 
-## This section will be replaced to use driverupdater soon
+### This section will be replaced to use driverupdater soon
 First, we need to inject drivers into install.wim. To do this, open a admin Powershell command prompt and execute
 ```
 Dism /Mount-Image /ImageFile:[Directory where the install.wim is located] /MountDir:[Where you want to mount the image]
@@ -185,22 +185,36 @@ bcdedit /store BCD /set "{default}" nointegritychecks on
 bcdedit /store BCD /set "{default}" recoveryenabled no
 ```
 
-
-
-
-
-
-
-
-
-
-You should now reboot into fastboot mode. Place the raphael UEFI image in the platform-tools folder you downloaded (make sure platform tools is extracted). Then, open a terminal in the platform-tools directory and type this:
-
+After Windows is hopefully installed correctly, we will now reboot into fastboot mode. Place the raphael UEFI image in the platform-tools folder you downloaded (make sure platform tools is extracted). Then, open a terminal in the platform-tools directory and type this:
 ```
 fastboot boot xiaomi-raphael.img
 ```
+If fastboot hangs on "< waiting for device >", make sure your device is properly plugged in, otherwise install fastboot drivers.
+You should now see a Windows 11 logo with a throbber. To permanently flash the image execute the following command:
+```
+fastboot flash boot xiaomi-raphael.img
+```
 
-If fastboot hangs on "< waiting for device >", make sure your device is properly plugged in, otherwise install fastboot drivers
+# 3. Post-installation
+
+## 3.1 Bypassing the "Let's connect you to a network" or "Let's add your Microsoft account"
+
+To bypass this, tap on the accessibility button in the bottom right, tap on "On-screen keyboard". An virtual keyboard should open. From there, tap on shift, and then F10. You should now see a command prompt open. In the command prompt type the following:
+```
+oobe\bypassnro
+```
+If that did not work try this:
+```
+cd oobe
+bypassnro.cmd
+```
+Your device should now restart. At the same screen you should now see an option that says ** I don't have internet**. Continue with setup as normal.
+
+# 4. Troubleshooting
+
+## 4.1 Restoring the WiFi drivers
+The wifi drivers are disabled due to some instabilities, altough they aren't that frequent and does not bother me.
+To reenable them, (assuming you have reached the Windows desktop) copy over the driver files to your windows partition (by using mass storage mode or some other way), then in the Windows desktop, go to the driver folder, then inside of it navigate to the following directory: **components/QC8150/Device/Raphael/DEVICE.SOC_QC8150.RAPHAEL/Extensions/Subsystems/**. From within that folder find a file called "raphael_subextscss.inf_". Rename that file to remove the "_" at the end. Open Device Manager. Click on the "Add drivers" button at the top (should be the 6th icon). Click on "Browse". Navigate to the previous folder and select the .inf file you have just renamed. Windows will install the wifi driver, then reboot. Wifi should now be working.
 
 
 
