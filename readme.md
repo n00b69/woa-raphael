@@ -8,6 +8,8 @@ DO NOT USE THIS GUIDE ON A REDMI K20 / MI 9T!! YOU RUN THE RISK OF BRICKING YOUR
 
 I am not responsible in any way for bricking your phone, YOU are responsible and YOU chose to make these modifications to your phone. Please read the guide carefully, do not just copy and paste the commands, and do not proceed if you do not understand something, or get an error, in this case try asking for help in the Project Renegade [discord server](https://discord.com/invite/XXBWfag) and [telegram](https://t.me/joinchat/MNjTmBqHIokjweeN0SpoyA).
 
+Credits to sunflower2333 for the mass storage mode script and the command for resizing the partition limit. Huge thanks to them.
+
 Here is a support table to get you started:
 | Feature                | Notes                                               | Status         |
 |------------------------|-----------------------------------------------------|----------------|
@@ -154,7 +156,8 @@ Before deploying a Windows image, we need a **install.wim** file, to do this:
 > Find install.wim there
 > Copy this file to your PC and mark the location
 
-Fisrt, we need to inject drivers into install.wim. To do this, open a admin Powershell command prompt and execute
+## This section will be replaced to use driverupdater soon
+First, we need to inject drivers into install.wim. To do this, open a admin Powershell command prompt and execute
 ```
 Dism /Mount-Image /ImageFile:[Directory where the install.wim is located] /MountDir:[Where you want to mount the image]
 Dism /Image:[Image mount directory] /Add-Driver /Driver:[raphael driver folder which you downloaded] /Recurse
