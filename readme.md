@@ -18,7 +18,7 @@ Here is a support table to get you started:
 | UFS                    |                                                     | ✅            |
 | Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
-| Battery                |                                                     | ✅            |
+| Battery                | May not work on all raphael's                       | ✅            |
 | Buttons                |                                                     | ✅            |
 | Light Sensor           |                                                     | ❌            |
 | Thermal Sensor         |                                                     | ❌            |
@@ -42,12 +42,14 @@ Here is a support table to get you started:
 You can use **"Latest Dev Channel build"** for the latest features in Windows. For more stability, choose **"Latest Release Preview build"**.
 
 ### 1.1.2 Downloading drivers, UEFI image and other tools
-[Raphael drivers](https://drive.google.com/file/d/1Y4CEkc7qFVid_we9iUBj6ME5shJwucKC/view?usp=drive_link) |
-[Raphael UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael/xiaomi-raphael.img) |
 [DriverUpdater (for installing drivers)](https://github.com/WOA-Project/DriverUpdater/releases) |
+[Raphael UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael/xiaomi-raphael.img) |
 [Platform-tools (adb and fastboot)](https://developer.android.com/tools/releases/platform-tools) |
+[SM8150 Drivers](https://github.com/woa-msmnile/msmnile-Drivers/archive/refs/heads/main.zip) and [raphael drivers](https://github.com/woa-msmnile/Raphael/archive/d4fbba0c8c09c5915e672f53a64ec26f8271ed50.zip)
 
-### Make sure you also have installed fastboot drivers and extracted all of the zip files.
+Before continuing, we must place the raphael drivers in the correct path. Unzip both the SM8150 and raphael drivers. Go in the raphael drivers folder, copy all of the three folders, go to msmnile-drivers-main (sm8150 drivers folder), from here navigate to: **"components/QC8150/Device/Raphael"** paste the raphael drivers here. You may now continue with the guide.
+
+### Make sure you also have installed fastboot drivers
 
 ## 1.2 Partition the UFS
 ### Warning! this will erase **ALL** of your Android data!
@@ -164,14 +166,8 @@ Before deploying a Windows image, we need a **install.wim** file, to do this:
 > Find install.wim there
 > Copy this file to your PC and mark the location
 
-### 2.2.1 Injecting drivers
-#### This section will be replaced to use driverupdater soon
-First, we need to inject drivers into install.wim. To do this, open a admin Powershell command prompt and execute
-```
-Dism /Mount-Image /ImageFile:[Directory where the install.wim is located] /MountDir:[Where you want to mount the image]
-Dism /Image:[Image mount directory] /Add-Driver /Driver:[raphael driver folder which you downloaded] /Recurse
-```
-### 2.2.2 Applying Windows image to your device
+
+### 2.2.1 Applying Windows image to your device
 After the previous command is done, in the same Powershell command prompt execute:
 ```
 dism /apply-image /ImageFile:<path/to/install.wim> /index:1 /ApplyDir:X:\
@@ -187,7 +183,7 @@ bcdboot X:\Windows /s Z: /f UEFI
 ```
 The above command will create a BCD Configuration in the EFI partition for Windows to boot.
 
-### 2.2.3 Tweaking boot configuration
+### 2.2.2 Tweaking boot configuration
 
 After the last command is finished we need to enable test signing and disable Automatic Repair, to do so, execute these commands:
 ```
@@ -197,8 +193,14 @@ bcdedit /store BCD /set "{default}" testsigning on
 bcdedit /store BCD /set "{default}" nointegritychecks on
 bcdedit /store BCD /set "{default}" recoveryenabled no
 ```
+### 2.2.3 Adding drivers
+Open the driverupdater zip file you downloaded back in step 1.1.2, extract both files in the root directory of msmnile-drivers-main folder (sm8150 drivers folder). Open an admin terminal in the root directory of msmnile-drivers-main and execute the following command:
+```
+DriverUpdater.exe -p X: -d definitions\Desktop\ARM64\Internal\raphael.txt -r .
+# X: is the drive leter of your phone's Windows partition
+```
 
-After Windows is hopefully installed correctly, we will now reboot into fastboot mode. Place the raphael UEFI image in the platform-tools folder you downloaded (make sure platform tools is extracted). Then, open a terminal in the platform-tools directory and type this:
+After Windows and the drivers are hopefully installed correctly, we will now reboot into fastboot mode. Place the raphael UEFI image in the platform-tools folder you downloaded (make sure platform tools is extracted). Then, open a terminal in the platform-tools directory and type this:
 ```
 fastboot boot xiaomi-raphael.img
 ```
