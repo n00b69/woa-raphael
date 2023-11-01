@@ -24,7 +24,7 @@ Here is a support table to get you started:
 | Thermal Sensor         |                                                     | ❌            |
 | Haptic                 |                                                     | ❌            |
 | Cellular Data          |                                                     | ❌            |
-| Charge                 |                                                     | ❌            |
+| Charge                 | Will not be able to charge if battery dies in Windows  | ❌            |
 
 
 # 1. Pre-installation
