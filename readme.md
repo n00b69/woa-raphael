@@ -18,13 +18,13 @@ Here is a support table to get you started:
 | UFS                    |                                                     | ✅            |
 | Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
-| Battery                | May not work on all raphael's                       | ✅            |
+| Battery                | Currently in testing                                | ⚠️            |
 | Buttons                |                                                     | ✅            |
 | Light Sensor           |                                                     | ❌            |
 | Thermal Sensor         |                                                     | ❌            |
 | Haptic                 |                                                     | ❌            |
 | Cellular Data          |                                                     | ❌            |
-| Charge                 | Will not be able to charge if battery dies in Windows  | ❌            |
+| Charge                 |Charge slowly if battery dies in Windows             | ❌            |
 
 
 # 1. Pre-installation
