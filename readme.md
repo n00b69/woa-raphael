@@ -197,7 +197,7 @@ bcdedit /store BCD /set "{default}" recoveryenabled no
 Open the driverupdater zip file you downloaded back in step 1.1.2, extract both files in the root directory of msmnile-drivers-main folder (sm8150 drivers folder). Open an admin terminal in the root directory of msmnile-drivers-main and execute the following command:
 ```
 DriverUpdater.exe -p X: -d definitions\Desktop\ARM64\Internal\raphael.txt -r .
-# X: is the drive leter of your phone's Windows partition
+# X: is the drive letter of your phone's Windows partition
 ```
 
 After Windows and the drivers are hopefully installed correctly, we will now reboot into fastboot mode. Place the raphael UEFI image in the platform-tools folder you downloaded (make sure platform tools is extracted). Then, open a terminal in the platform-tools directory and type this:
