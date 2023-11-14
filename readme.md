@@ -224,7 +224,7 @@ If that did not work try this:
 cd oobe
 bypassnro.cmd
 ```
-Your device should now restart. At the same screen you should now see an option that says ** I don't have internet**. Continue with setup as normal.
+Your device should now restart. At the same screen you should now see an option that says **I don't have internet**. Continue with setup as normal.
 
 # 4. Troubleshooting
 
