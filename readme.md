@@ -18,7 +18,7 @@ Here is a support table to get you started:
 | UFS                    |                                                     | ✅            |
 | Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
-| Audio                  | Screen is noticeably dimmer for some reason         | ✅            |
+| Audio                  | Read step 4.5 to fix the dim screen issue           | ✅            |
 | Battery                | Currently in testing                                | ⚠️            |
 | Buttons                |                                                     | ✅            |
 | Light Sensor           |                                                     | ❌            |
@@ -248,6 +248,9 @@ If you stumble upon this error, you may need to redeploy the Windows image. This
 
 ## 4.4 INACCESSIBLE_BOOT_DEVICE BSOD 
 This Blue Screen of Death likely means some broken driver installation. To fix this, redo step 2.1 (but dont execute any format commands or you will have to redeploy Windows again), after that, repeat step x.x (replace drivers using driverupdater)
-# This guide is currently a WIP
+
+## 4.5 My screen is dimmer than before
+
+A weird workaround for this... is to just press the power button to put the phone to sleep, and again to wake it. Just works for some reason
 
 half assed guide lol
