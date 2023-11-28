@@ -18,6 +18,7 @@ Here is a support table to get you started:
 | UFS                    |                                                     | ✅            |
 | Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
+| Audio                  | Screen is noticeably dimmer for some reason         | ✅            |
 | Battery                | Currently in testing                                | ⚠️            |
 | Buttons                |                                                     | ✅            |
 | Light Sensor           |                                                     | ❌            |
