@@ -19,13 +19,13 @@ Here is a support table to get you started:
 | Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
 | Audio                  | Read step 4.5 to fix the dim screen issue           | ✅            |
-| Battery                | breaks pmic lol                                     | ⚠️            |
+| Battery                | i dont know                                         | ⚠️            |
 | Buttons                |                                                     | ✅            |
 | Light Sensor           |                                                     | ❌            |
 | Thermal Sensor         |                                                     | ❌            |
 | Haptic                 |                                                     | ❌            |
 | Cellular Data          |                                                     | ❌            |
-| Charge                 |Charge slowly if battery dies in Windows             | ❌            |
+| Charge                 | Charges slowly if plugged in                        | ❌            |
 
 
 # 1. Pre-installation
