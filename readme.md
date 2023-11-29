@@ -14,12 +14,12 @@ Here is a support table to get you started:
 | Feature                | Notes                                               | Status         |
 |------------------------|-----------------------------------------------------|----------------|
 | Bluetooth              |                                                     | ✅            |
-| Wifi                   | Disabled  due to instabilities (see step 4.1)       | ⚠️            |
+| Wifi                   |                                                     | ✅            |
 | UFS                    |                                                     | ✅            |
 | Touch                  |                                                     | ✅            |
 | GPU                    | May not work on some devices with unofficial panel. | ✅            |
 | Audio                  | Read step 4.5 to fix the dim screen issue           | ✅            |
-| Battery                | Currently in testing                                | ⚠️            |
+| Battery                | breaks pmic lol                                     | ⚠️            |
 | Buttons                |                                                     | ✅            |
 | Light Sensor           |                                                     | ❌            |
 | Thermal Sensor         |                                                     | ❌            |
