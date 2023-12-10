@@ -17,7 +17,7 @@ Here is a support table to get you started:
 | Wifi                   |                                                     | ✅            |
 | UFS                    |                                                     | ✅            |
 | Touch                  |                                                     | ✅            |
-| GPU                    | May not work on some devices with unofficial panel. | ✅            |
+| GPU                    | May not work on some devices with unofficial panel  | ⚠️            |
 | Audio                  | Read step 4.5 to fix the dim screen issue           | ✅            |
 | Battery                | i dont know                                         | ⚠️            |
 | Buttons                |                                                     | ✅            |
