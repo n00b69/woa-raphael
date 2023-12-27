@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/raphael.png" width="350" alt="Xiaomi Mi 9T Pro">
+<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/65c0ee06045c13d1ef0f5f88aa687c50274ef7f5/raphael.png" width="450" alt="Xiaomi Mi 9T Pro">
 
 # Running Windows on Redmi K20 Pro / Mi 9T Pro (raphael/raphaelin)
 
