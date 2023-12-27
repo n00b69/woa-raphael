@@ -62,6 +62,7 @@ fastboot boot (recovery-image-name).img
 ```
 ### 1.2.1 Partitioning using parted
 You should now boot into recovery.
+Your Redmi K20 Pro / Mi 9T Pro may have different storage sizes. Check free space using "(parted) free" and set the end value accordingly. (In guide, example is set for 128gb models)
 Before partitioning, we must remove the 32 partition number limit. Raphael has 31 partitions by default, which is not enough for installing Windows or dualbooting with Android.
 ~~~
 adb shell
@@ -97,18 +98,17 @@ We will now create both ESP and Windows partitions.
 Note: 32GB is the **End** of the **userdata** partition and 32.5GB is the end of the partition we will be creating, so it will be 500MB in size. Also replace 32GB to the end of userdata accordingly. Check free space by typing: "(parted) free"
 ```
 (parted) mkpart esp fat32 32GB 32.5GB
-# Here, 32.5GB is the end of the esp partition, and 122gb is the end of the userdata partition before shrinking
+# Here, 32GB is the end of userdata partition
 
 (parted) set $ esp on
 # Replace "$" with your ESP partition number, usually 30, or 31
 
 (parted) mkpart win ntfs 32.5GB 122GB
-# Again, 122GB is the end value
-
+# Here, 122GB is the end value of your phone's total storage. Replace with the end value you see when executing "p free"
+# 32.5GB is the end of esp
 (parted) quit
 # exit the tool
 ```
-Your Redmi K20 Pro / Mi 9T Pro may have different storage sizes. Again, check free space using "(parted) free" and set the end value accordingly.
 Reboot to android to check if everything works correctly.
 
 # 1.3 Backing up essential partitions
