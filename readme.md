@@ -6,7 +6,7 @@
 
 DO NOT USE THIS GUIDE ON A REDMI K20 / MI 9T!! YOU RUN THE RISK OF BRICKING YOUR DEVICE! Altough they might seem the same, they have completely different SoC's and codenames!
 
-I am not responsible in any way for bricking your phone, YOU are responsible and YOU chose to make these modifications to your phone. Please read the guide carefully, do not just copy and paste the commands, and do not proceed if you do not understand something, or get an error, in this case try asking for help in the Project Renegade [discord server](https://discord.com/invite/XXBWfag) and [telegram](https://t.me/joinchat/MNjTmBqHIokjweeN0SpoyA). (or you can ask me on [telegram](https://t.me/graphiks23) at my discord at graphik23, or at [Windows on Raphael](https://t.me/+7kwPoaAfQgg3YThi) telegram)
+I am not responsible in any way for bricking your phone, YOU are responsible and YOU chose to make these modifications to your phone. Please read the guide carefully, do not just copy and paste the commands, and do not proceed if you do not understand something, or get an error, in this case try asking for help in the Project Renegade [discord server](https://discord.com/invite/XXBWfag) and [telegram](https://t.me/joinchat/MNjTmBqHIokjweeN0SpoyA). (or you can ask me on [telegram](https://t.me/graphiks23) at my discord at graphik23, or at [Windows on Raphael](https://t.me/woaraphael) telegram)
 
 Credits to sunflower2333 for the mass storage mode script and the command for resizing the partition limit. Huge thanks to them.
 
