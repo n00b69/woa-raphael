@@ -45,7 +45,7 @@ You can use **"Latest Dev Channel build"** for the latest features in Windows. F
 
 ### 1.1.2 Downloading drivers, UEFI image and other tools
 [DriverUpdater (for installing drivers)](https://github.com/WOA-Project/DriverUpdater/releases) |
-[Raphael UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael/xiaomi-raphael.img) |
+[Raphael UEFI image](https://github.com/graphiks/woa-raphael/releases/download/raphael2/xiaomi-raphael.img) |
 [Platform-tools (adb and fastboot)](https://developer.android.com/tools/releases/platform-tools) |
 [SM8150 Drivers](https://github.com/woa-msmnile/msmnile-Drivers/archive/refs/heads/main.zip) and [raphael drivers](https://github.com/woa-msmnile/Raphael/archive/d4fbba0c8c09c5915e672f53a64ec26f8271ed50.zip)
 
