@@ -24,7 +24,7 @@ Here is a support table to get you started:
 | Light Sensor           |                                                     | ❌            |
 | Thermal Sensor         |                                                     | ❌            |
 | Haptic                 |                                                     | ❌            |
-| Cellular Data          |                                                     | ❌            |
+| Cellular Data          | Same workaround as vayu                             | ✅            |
 | Charge                 | Charges slowly if plugged in                        | ❌            |
 
 
