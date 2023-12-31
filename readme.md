@@ -34,6 +34,7 @@ Here is a support table to get you started:
 2. A computer running Windows
 3. An USB cable to connect your phone to your computer
 4. A desire to learn (important)
+5. an actual brain
 
 ## 1.1 Downloading files
 ### **Please avoid all stripped down versions of Windows 10 and 11** (ex. Tiny11). These builds of Windows usually break vital components or software. Raphael is powerful enough for vanilla Windows. Or you can proceed with caution, but don't ask for help with  broken stuff.
