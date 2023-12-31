@@ -69,6 +69,10 @@ Before partitioning, we must remove the 32 partition number limit. Raphael has 3
 adb shell
 sgdisk --resize-table=128 /dev/block/sda
 ~~~
+Do a backup of boot.img, we'll need this for dualbooting (your boot.img will be in Internal Storage)
+```
+adb shell dd if=/dev/block/by-name/boot of=/sdcard/boot.img
+```
 ```
 adb push parted /cache/
 adb shell "chmod 755 /cache/parted"
@@ -227,6 +231,18 @@ cd oobe
 bypassnro.cmd
 ```
 Your device should now restart. At the same screen you should now see an option that says **I don't have internet**. Continue with setup as normal.
+
+## 3.2 Dualbooting
+### While booted in Android, install this [app](https://github.com/graphiks/woa-raphael/raw/main/woa-helper-raphael.apk).
+####   • Download the xiaomi-raphael.img file from the Releases page (on mobile should be at the bottom of the page), and copy that file to: **Internal Storage > UEFI** (if there is no uefi folder create it in all caps).
+####   • Open the app again, and press mount Windows, go to your file manager, copy boot.img from **Internal Storage**, and put it in **Internal Storage > Windows**.
+####   • Go back in the app, select Flash UEFI, hit yes, and reboot your device, it should now reboot to Windows.
+
+### While booted in Windows, download and open this [exe file](https://github.com/graphiks/woa-raphael/raw/main/StA_Installer_raphael.exe)
+####   • Wait 1-2 mins, you should see a "Reboot to Android" shortcut on your desktop.
+####   • Open the shortcut, it should reboot to Android now.
+
+
 
 # 4. Troubleshooting
 
