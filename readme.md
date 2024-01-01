@@ -1,5 +1,5 @@
-<img align="right" src="https://raw.githubusercontent.com/graphiks/woa-raphael/65c0ee06045c13d1ef0f5f88aa687c50274ef7f5/raphael.png" width="350" alt="Xiaomi Mi 9T Pro">
-<img src="https://raw.githubusercontent.com/graphiks/woa-raphael/main/sticker.png" width="300">
+<img align="right" src="https://raw.githubusercontent.com/graphiks/old-woa-raphael/65c0ee06045c13d1ef0f5f88aa687c50274ef7f5/raphael.png" width="350" alt="Xiaomi Mi 9T Pro">
+<img src="https://raw.githubusercontent.com/graphiks/old-woa-raphael/main/sticker.png" width="300">
 
 # Running Windows on Redmi K20 Pro / Mi 9T Pro (raphael/raphaelin)
 
