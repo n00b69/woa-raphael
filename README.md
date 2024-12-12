@@ -46,14 +46,12 @@ All the files here have been contributed by other users, here you will find a gu
 [<img alt="proganime1200" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/32473502?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/proganime1200)
 [<img alt="KuatoDev" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/17999613?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/KuatoDev)
 [<img alt="belomaxorka" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54049465?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/belomaxorka)
-[<img alt="Nx0Ri" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/152011726?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Nx0Ri)
 [<img alt="Misha803" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118528504?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Misha803)
 [<img alt="n00b69" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83274506?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/n00b69)
 [<img alt="TrustedFloppa" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85476585?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TrustedFloppa)
-[<img alt="Dawid2849" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/77780707?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Dawid2849)
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
-
-
+[<img alt="Graphael" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/136170061?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/graphiks)
+[<img alt="qaz6750" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/66907230?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/qaz6750)
 
 
 
