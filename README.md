@@ -1,6 +1,3 @@
-> [!Warning]
-> This guide is still w.i.p
-
 <img align="right" src="https://github.com/n00b69/woa-raphael/blob/main/raphael.png" width="350" alt="Windows 11 running on a Redmi K20 Pro">
 
 # Running Windows on the Xiaomi Mi 9T Pro / Redmi K20 Pro
