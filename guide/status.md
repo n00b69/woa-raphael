@@ -8,7 +8,7 @@ This project has reached its final stages. Small improvements may be made, but d
 #### Features
 - [x] Audio (Speakers)
 - [x] Audio (3.5mm)
-- [ ] Battery status ```unstable and disabled```
+- [x] Battery status
 - [x] Bluetooth
 - [x] Brightness
 - [ ] Camera
