@@ -1,0 +1,49 @@
+<img align="right" src="https://github.com/n00b69/woa-raphael/blob/main/raphael.png" width="350" alt="Windows 11 running on a Redmi K20 Pro">
+
+# Running Windows on the Xiaomi Mi 9T Pro / Redmi K20 Pro
+
+## Project Status
+This project has reached its final stages. Small improvements may be made, but don't expect major improvements (such as working camera)
+
+#### Features
+- [x] Audio (Speakers)
+- [x] Audio (3.5mm)
+- [X] Battery status
+- [x] Bluetooth
+- [x] Brightness
+- [ ] Camera
+- [x] Charging ```VERY slow```
+- [x] Display
+- [ ] Flashlight
+- [x] GPU
+- [x] SMS
+- [x] Touchscreen
+- [x] LTE ```SIM card must be in SIM1 slot```
+- [x] Microphone
+- [x] UFS
+- [x] USB
+- [x] Wi-Fi
+
+#### Sensors
+- [ ] Accelerometer
+- [ ] Fingerprint
+- [x] GPS
+- [ ] Gyroscope
+- [ ] Light sensor
+- [ ] Magnetometer
+- [ ] Proximity
+
+#### Security
+- [ ] Security Processor ```Impossible to get working, Xiaomi broke the firmware```
+- [x] TPM (Software Backed)
+
+
+
+
+
+
+
+
+
+
+
