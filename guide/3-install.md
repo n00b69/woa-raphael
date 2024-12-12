@@ -81,9 +81,24 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 > If it asks you to enter a letter, enter the drive letter of **WINRAPHAEL** (which should be **X**), then press enter
 
 #### Create Windows bootloader files
-> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPVAYU**, then replace the letter `Y` in the next command with the letter that you just added.
+> If any error shows up, such as "Failure when attempting to copy boot files", open `diskpart` again and assign any new letter to **ESPRAPHAEL**, then replace the letter `Y` in the next command with the letter that you just added.
 ```cmd
 bcdboot X:\Windows /s Y: /f UEFI
+```
+
+#### Enabling test signing
+```cmd
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
+```
+
+#### Disabling recovery
+```cmd
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
+```
+
+#### Disabling integrity checks
+```cmd
+bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
 ```
 
 #### Remove the drive letter for ESP
