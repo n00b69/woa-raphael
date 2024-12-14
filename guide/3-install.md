@@ -86,21 +86,6 @@ dism /apply-image /ImageFile:path\to\install.esd /index:6 /ApplyDir:X:\
 bcdboot X:\Windows /s Y: /f UEFI
 ```
 
-#### Enabling test signing
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" testsigning on
-```
-
-#### Disabling recovery
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" recoveryenabled no
-```
-
-#### Disabling integrity checks
-```cmd
-bcdedit /store Y:\EFI\Microsoft\BOOT\BCD /set "{default}" nointegritychecks on
-```
-
 #### Remove the drive letter for ESP
 > If this does not work, ignore it and skip to the next command. This phantom drive will disappear the next time you reboot your PC.
 ```cmd
