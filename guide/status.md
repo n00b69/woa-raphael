@@ -25,7 +25,7 @@ This project has reached its final stages. Small improvements may be made, but d
 - [x] Wi-Fi
 
 #### Sensors
-- [ ] Accelerometer
+- [x] Accelerometer
 - [ ] Fingerprint
 - [x] GPS
 - [ ] Gyroscope
