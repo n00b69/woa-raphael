@@ -12,7 +12,7 @@ If you want to relock your bootloader you'll need your partition table to be sto
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modded TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img) (new method)
+- [Modded TWRP](https://github.com/n00b69/woa-raphael/releases/tag/Recovery) (new method)
 
 - [gpt_both0.bin](https://github.com/n00b69/woa-raphael/releases/download/Files/gpt_both0.bin) (old method)
 
