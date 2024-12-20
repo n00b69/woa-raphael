@@ -17,6 +17,7 @@ All the files here have been contributed by other users, here you will find a gu
 
 - [Troubleshooting](guide/troubleshooting.md)
 
+
 ## Miscellaneous
 - [Dualboot setup](guide/4-dualboot.md)
 
@@ -27,6 +28,12 @@ All the files here have been contributed by other users, here you will find a gu
 - [Reinstall instructions](guide/reinstall.md)
 
 - [Uninstall instructions](guide/uninstall.md)
+
+
+## Maintainers
+[<img alt="qaz6750" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/66907230?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/qaz6750)
+[<img alt="sunflower2333" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54024877?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/sunflower2333)
+
 
 ## Contributors
 [<img alt="adomerlee" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109386069?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/adomerlee)
@@ -51,7 +58,7 @@ All the files here have been contributed by other users, here you will find a gu
 [<img alt="TrustedFloppa" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85476585?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/TrustedFloppa)
 [<img alt="Kumar-Jy" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20044626?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/Kumar-Jy)
 [<img alt="Graphael" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/136170061?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/graphiks)
-[<img alt="qaz6750" src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/66907230?v=4&w=45&fit=cover&mask=circle&maxage=7d" />](https://github.com/qaz6750)
+
 
 
 
