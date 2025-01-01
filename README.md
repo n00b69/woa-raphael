@@ -23,9 +23,9 @@ All the files here have been contributed by other users, here you will find a gu
 
 - [Additional materials](guide/materials.md)
 
-- [Update drivers](guide/update.md)
+- [Update drivers](guide/update-selection.md)
 
-- [Reinstall instructions](guide/reinstall.md)
+- [Reinstall instructions](guide/reinstall-selection.md)
 
 - [Uninstall instructions](guide/uninstall.md)
 
