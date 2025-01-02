@@ -136,6 +136,12 @@ adb shell mkfs.ntfs -f /dev/block/by-name/win -L WINRAPHAEL
 adb shell mkfs.fat -F32 -s1 /dev/block/by-name/esp -n ESPRAPHAEL
 ``` 
 
+### Fixing the GPT
+> If you do not do this, Windows may break your device
+```cmd
+adb shell fixgpt
+```
+
 </details>
 
 #### Method 2: Automatic partitioning 
