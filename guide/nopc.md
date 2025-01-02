@@ -60,6 +60,9 @@ partition $
 
 ### Preparing necessary files
 - Download the Windows image and make sure it remains in the `Download` folder of your **internal storage**.
+> [!Important]
+> For performance reasons, it is recommended to use Windows 11 24H2 (builds that start with 261XX, such as 26100.2454)
+
 > If TWRP is not able to read/decrypt your internal storage, create a folder on your **USB stick** named `WOA` and put the **.esd** file in there
 >
 > Alternatively, find another TWRP image online that can actually decrypt and use it instead
