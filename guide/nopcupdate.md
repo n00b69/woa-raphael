@@ -7,7 +7,7 @@
 ### Prerequisites
 - A rooted Xiaomi Mi 9T Pro / Redmi K20 Pro
 
-- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/tag/Recovery)
+- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img)
 
 - [Raphael WinInstaller](https://github.com/n00b69/woa-raphael/releases/download/Files/RaphaelWinInstaller.zip)
 
