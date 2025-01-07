@@ -9,7 +9,7 @@
 
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/tag/Recovery)
+- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img)
 
 ### Boot into TWRP
 > If your recovery has been replaced by the stock recovery, flash it again using
