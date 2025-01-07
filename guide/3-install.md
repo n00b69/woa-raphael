@@ -5,7 +5,7 @@
 ## Installing Windows
 
 ### Prerequisites
-- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/tag/Recovery) (should already be installed)
+- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img) (should already be installed)
 
 - [Windows on ARM image](https://arkt-7.github.io/woawin/)
 
