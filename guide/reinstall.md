@@ -7,7 +7,7 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/tag/Recovery) (should already be installed)
+- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img) (should already be installed)
 
 ### Boot into TWRP
 > If MIUI has replaced your recovery, boot to fastboot and run
