@@ -5,16 +5,16 @@
 ## Updating drivers
 
 ### Prerequisites
-- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img) (should already be installed)
+- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img)
 
 - [Drivers](https://github.com/n00b69/woa-raphael/releases/tag/Drivers)
 
 - [UEFI image](https://github.com/n00b69/woa-raphael/releases/tag/UEFI)
 
-### Boot into TWRP
-> If your recovery has been replaced by the stock recovery, flash it again using
+### Boot into the modified TWRP
+> While in fastboot mode, replace `path\to\modded-twrp-raphael.img` with the actual path of the image
 ```cmd
-fastboot flash recovery path\to\modded-twrp-raphael.img reboot recovery
+fastboot boot path\to\modded-twrp-raphael.img
 ```
 
 #### Execute the msc script
