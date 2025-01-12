@@ -36,10 +36,10 @@
 cd path\to\platform-tools
 ```
 
-#### Flash the modded recovery
-> Replace `path\to\modded-twrp-raphael.img` with the actual path to the modded recovery image
+### Boot into the modified TWRP
+> While in fastboot mode, replace `path\to\modded-twrp-raphael.img` with the actual path of the image
 ```cmd
-fastboot flash recovery path\to\modded-twrp-raphael.img reboot recovery
+fastboot boot path\to\modded-twrp-raphael.img
 ```
 
 #### Backing up your boot image
