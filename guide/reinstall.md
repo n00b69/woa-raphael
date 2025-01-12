@@ -7,12 +7,12 @@
 ### Prerequisites
 - [ADB & Fastboot](https://developer.android.com/studio/releases/platform-tools)
 
-- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img) (should already be installed)
+- [Modified TWRP](https://github.com/n00b69/woa-raphael/releases/download/Files/modded-twrp-raphael.img)
 
-### Boot into TWRP
-> If MIUI has replaced your recovery, boot to fastboot and run
+### Boot into the modified TWRP
+> While in fastboot mode, replace `path\to\modded-twrp-raphael.img` with the actual path of the image
 ```cmd
-fastboot flash recovery path\to\modded-twrp-raphael.img reboot recovery
+fastboot boot path\to\modded-twrp-raphael.img
 ```
 
 #### Formatting the Windows partition
