@@ -18,7 +18,7 @@ This project has reached its final stages. Small improvements may be made, but d
 - [x] GPU
 - [x] SMS
 - [x] Touchscreen
-- [x] LTE ```SIM card must be in SIM1 slot```
+- [x] LTE ```SIM card must be in SIM1 slot``` & ```LTE does not work in 24H2```
 - [x] Microphone
 - [x] UFS
 - [x] USB
